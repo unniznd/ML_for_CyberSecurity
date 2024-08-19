@@ -3,6 +3,26 @@ library(tidyr)
 
 print(iris);
 
+x = 10
+y = 3
+print(x+y)
+print(x-y)
+print(x*y)
+print(x/y)
+print(x%%y)
+print(x %/% y)
+print(floor(x/y))
+print(ceiling(x/y))
+
+v = c(1, 2, 3, 4, 5)
+print(v)
+print(v[1:3])
+v[1] = 10
+print(v)
+print(sum(v))
+print(mean(v))
+print(median(v))
+print(sd(v))
 sepal_len_vector <- iris[, 'Sepal.Length']
 print(class(sepal_len_vector))
 print(sepal_len_vector[1:10])
